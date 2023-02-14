@@ -28,6 +28,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.alkahestry.init.AlkahestryModTabs;
 import net.mcreator.alkahestry.init.AlkahestryModItems;
+import net.mcreator.alkahestry.init.AlkahestryModBlocks;
+import net.mcreator.alkahestry.init.AlkahestryModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,8 +47,10 @@ public class AlkahestryMod {
 	public AlkahestryMod() {
 		AlkahestryModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AlkahestryModBlocks.REGISTRY.register(bus);
 		AlkahestryModItems.REGISTRY.register(bus);
+
+		AlkahestryModBlockEntities.REGISTRY.register(bus);
 
 	}
 

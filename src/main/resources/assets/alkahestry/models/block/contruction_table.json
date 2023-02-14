@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alkahestry:blocks/constructor_side",
+    "up": "alkahestry:blocks/constructor_top",
+    "north": "alkahestry:blocks/constructor_side",
+    "east": "alkahestry:blocks/constructor_side",
+    "south": "alkahestry:blocks/constructor_side",
+    "west": "alkahestry:blocks/constructor_side",
+    "particle": "alkahestry:blocks/constructor_side"
+  }
+}

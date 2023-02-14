@@ -1,7 +1,8 @@
 {
+  "block.alkahestry.contruction_table": "Contruction Table",
+  "itemGroup.tabalkahestry": "Alkahestry",
   "item.alkahestry.lignorum_flora": "Lignorum",
   "item.alkahestry.silexine_rock": "Silexine",
   "item.alkahestry.crystallinum_mineral": "Crystallinum",
-  "itemGroup.tabcreative_tab": "Alkahestry",
   "item.alkahestry.alkahest_pocket_watch": "Alkahest\u0027s Pocket Watch"
 }

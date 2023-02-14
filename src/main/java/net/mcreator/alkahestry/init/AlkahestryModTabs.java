@@ -11,10 +11,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class AlkahestryModTabs {
-	public static CreativeModeTab TAB_CREATIVE_TAB;
+	public static CreativeModeTab TAB_ALKAHESTRY;
 
 	public static void load() {
-		TAB_CREATIVE_TAB = new CreativeModeTab("tabcreative_tab") {
+		TAB_ALKAHESTRY = new CreativeModeTab("tabalkahestry") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(AlkahestryModItems.ALKAHEST_POCKET_WATCH.get());

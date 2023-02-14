@@ -24,7 +24,7 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creative_tab"
+      "registry_name": "alkahestry"
     },
     {
       "name": "LignorumFlora",
@@ -124,16 +124,52 @@
       "locked_code": false,
       "registry_name": "alkahest_pocket_watch_recipe",
       "path": "~/Tools"
+    },
+    {
+      "name": "ConstructorGUI",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructor_gui",
+      "path": "~/Tools/ConstructionTable"
+    },
+    {
+      "name": "ContructionTable",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contruction_table",
+      "path": "~/Tools/ConstructionTable"
+    },
+    {
+      "name": "ConstructButtonClicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "construct_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools/ConstructionTable"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.alkahestry.contruction_table": "Contruction Table",
+      "itemGroup.tabalkahestry": "Alkahestry",
       "item.alkahestry.lignorum_flora": "Lignorum",
       "item.alkahestry.silexine_rock": "Silexine",
       "item.alkahestry.crystallinum_mineral": "Crystallinum",
-      "itemGroup.tabcreative_tab": "Alkahestry",
       "item.alkahestry.alkahest_pocket_watch": "Alkahest\u0027s Pocket Watch"
     }
   },
@@ -146,7 +182,12 @@
       },
       {
         "name": "Tools",
-        "children": []
+        "children": [
+          {
+            "name": "ConstructionTable",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Deconstruction",

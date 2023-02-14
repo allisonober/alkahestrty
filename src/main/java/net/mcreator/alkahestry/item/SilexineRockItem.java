@@ -15,7 +15,7 @@ import java.util.List;
 
 public class SilexineRockItem extends Item {
 	public SilexineRockItem() {
-		super(new Item.Properties().tab(AlkahestryModTabs.TAB_CREATIVE_TAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(AlkahestryModTabs.TAB_ALKAHESTRY).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

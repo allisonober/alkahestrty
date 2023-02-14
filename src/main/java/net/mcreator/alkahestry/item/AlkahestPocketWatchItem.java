@@ -32,7 +32,7 @@ import io.netty.buffer.Unpooled;
 
 public class AlkahestPocketWatchItem extends Item {
 	public AlkahestPocketWatchItem() {
-		super(new Item.Properties().tab(AlkahestryModTabs.TAB_CREATIVE_TAB).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(AlkahestryModTabs.TAB_ALKAHESTRY).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

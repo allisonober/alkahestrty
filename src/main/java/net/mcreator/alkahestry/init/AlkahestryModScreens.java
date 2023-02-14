@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.alkahestry.client.gui.TestGrid1Screen;
+import net.mcreator.alkahestry.client.gui.ConstructorGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AlkahestryModScreens {
@@ -19,6 +20,7 @@ public class AlkahestryModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(AlkahestryModMenus.TEST_GRID_1, TestGrid1Screen::new);
+			MenuScreens.register(AlkahestryModMenus.CONSTRUCTOR_GUI, ConstructorGUIScreen::new);
 		});
 	}
 }
