@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Alkahestry",
+    "icon": {
+      "value": "CUSTOM:AlkahestPocketWatch"
+    },
+    "showSearch": false
+  }
+}

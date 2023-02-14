@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "alkahestry:alkahest_pocket_watch"
+    }
+  ],
+  "result": {
+    "item": "alkahestry:crystallinum_mineral",
+    "count": 2
+  }
+}

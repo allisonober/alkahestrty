@@ -1,0 +1,179 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestGrid1",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_grid_1",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AlkahestPocketWatch",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alkahest_pocket_watch",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab"
+    },
+    {
+      "name": "LignorumFlora",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignorum_flora",
+      "path": "~/Elements"
+    },
+    {
+      "name": "SilexineRock",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silexine_rock",
+      "path": "~/Elements"
+    },
+    {
+      "name": "CrystallinumMineral",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallinum_mineral",
+      "path": "~/Elements"
+    },
+    {
+      "name": "Dirt",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "path": "~/Deconstruction"
+    },
+    {
+      "name": "Cobble",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble",
+      "path": "~/Deconstruction"
+    },
+    {
+      "name": "Wood",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood",
+      "path": "~/Deconstruction"
+    },
+    {
+      "name": "IronDeconstruction",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_deconstruction",
+      "path": "~/Deconstruction"
+    },
+    {
+      "name": "RawIronDeconstruction",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_iron_deconstruction",
+      "path": "~/Deconstruction"
+    },
+    {
+      "name": "RawIronC",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_iron_c",
+      "path": "~/Construction"
+    },
+    {
+      "name": "IronC",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_c",
+      "path": "~/Construction"
+    },
+    {
+      "name": "AlkahestPocketWatchRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alkahest_pocket_watch_recipe",
+      "path": "~/Tools"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.alkahestry.lignorum_flora": "Lignorum",
+      "item.alkahestry.silexine_rock": "Silexine",
+      "item.alkahestry.crystallinum_mineral": "Crystallinum",
+      "itemGroup.tabcreative_tab": "Alkahestry",
+      "item.alkahestry.alkahest_pocket_watch": "Alkahest\u0027s Pocket Watch"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Elements",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Deconstruction",
+        "children": []
+      },
+      {
+        "name": "Construction",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alkahestry",
+    "modName": "Alkahestry",
+    "version": "1.0.0",
+    "author": "Aly, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.alkahestry",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
